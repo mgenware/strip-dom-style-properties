@@ -8,7 +8,8 @@ export default function stripStyleProperties(
   const parser = new DOMParser();
   const { body } = parser.parseFromString(html, 'text/html');
   const elements = body.querySelectorAll('[style]');
-  for (const element of elements) {
+  for (let i = 0; i < elements.length; i++) {
+    const element = elements.item(i);
     if (element instanceof HTMLElement) {
       for (const prop of properties) {
         element.style.removeProperty(prop);
