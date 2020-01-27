@@ -1,5 +1,9 @@
 # strip-dom-style-properties
 
+[![Build Status](https://github.com/mgenware/strip-dom-style-properties/workflows/Build/badge.svg)](https://github.com/mgenware/strip-dom-style-properties/actions)
+[![npm version](https://img.shields.io/npm/v/strip-dom-style-properties.svg?style=flat-square)](https://npmjs.com/package/strip-dom-style-properties)
+[![Node.js Version](http://img.shields.io/node/v/strip-dom-style-properties.svg?style=flat-square)](https://nodejs.org/en/)
+
 Strip HTML element style properties.
 
 ## Installation
